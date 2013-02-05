@@ -1,0 +1,19 @@
+{
+  "author": {
+    "name": "Dan Kantor",
+    "email": "dan@ex.fm"
+  },
+  "name": "ga-local-storage",
+  "description": "Cookie-less GA using localStorage.",
+  "version": "0.0.0",
+  "homepage": "http://github.com/exfm/GALocalStorage",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/exfm/GALocalStorage.git"
+  },
+  "dependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
