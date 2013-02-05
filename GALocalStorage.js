@@ -53,7 +53,7 @@
         };
     };
     
-    ga_storage = new function() {
+    module.exports = function() {
         var that = this;
         var initialized = false;
         
