@@ -239,14 +239,16 @@
                 var scopes = '';
                 
                 for(var i = 1; i < custom_vars.length; i++) {
-                    names += custom_vars[i].name;
-                    values += custom_vars[i].value;
-                    scopes += (custom_vars[i].scope == null ? 3 : custom_vars[i].scope);
-                    
-                    if(i+1 < custom_vars.length) {
-                        names += '*';
-                        values += '*';
-                        scopes += '*';
+                    if(custom_vars[i]){
+                        names += custom_vars[i].name;
+                        values += custom_vars[i].value;
+                        scopes += (custom_vars[i].scope == null ? 3 : custom_vars[i].scope);
+                        
+                        if(i+1 < custom_vars.length) {
+                            names += '*';
+                            values += '*';
+                            scopes += '*';
+                        }
                     }
                 }
                 
